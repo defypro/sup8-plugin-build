@@ -1,0 +1,35 @@
+{
+	"pluginBudleName":"E_LHLH_OBDManage_Budle",
+	"publishPath": "publish",
+	"releasePackageList": [
+		{
+			"bundleName": "DashboardPartialBundle",
+			"releasePath": "Sup8.E_LHLH_OBDManage.Dash/bin/Release",
+			"releaseList": [
+				"Web.config",
+				"PartialBundleMetadata.xml",
+				"Global.asax",
+				"Views",
+				"Scripts",
+				"Plugins",
+				"Content",
+				"bin/Sup8.E_LHLH_OBDManage.Dash.dll",
+				"bin/Sup8.E_LHLH_OBDManage.Common.dll"
+			],
+			"otherFilePath": []
+		},
+		{
+			"bundleName": "OpenAPIPartialBundle",
+			"releasePath": "Sup8.E_LHLH_OBDManage.OpenApi/bin/Release",
+			"releaseList": [
+				"Sup8.E_LHLH_OBDManage.OpenApi.dll",
+				"Sup8.E_LHLH_OBDManage.Common.dll",
+				"Sup8.E_LHLH_OBDManage.OpenApi.dll.config"
+			],
+			"otherFilePath": [
+				"Sup8.E_LHLH_OBDManage.OpenApi/PartialBundleMetadata.xml",
+				"EasyApiDocker/sql"
+			]
+		}
+	]
+}
